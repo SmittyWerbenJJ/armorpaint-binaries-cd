@@ -1,12 +1,8 @@
 name: Windows Workflow
 
 
-on:
-  push:
-    branches:
-    - dev-*
-    tags:
-    - release-v*.*
+on: push
+  
 
 jobs:
   Build:
